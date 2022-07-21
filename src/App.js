@@ -11,12 +11,12 @@ function App() {
       <div className="humberger__menu__overlay"></div>
       <div className="humberger__menu__wrapper">
           <div className="humberger__menu__logo">
-              <a href="#"><img src="img/logo.png" alt="" /></a>
+              <a href="example.com"><img src="img/logo.png" alt="" /></a>
           </div>
           <div className="humberger__menu__cart">
               <ul>
-                  <li><a href="#"><i className="fa fa-heart"></i> <span>1</span></a></li>
-                  <li><a href="#"><i className="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                  <li><a href="example.com"><i className="fa fa-heart"></i> <span>1</span></a></li>
+                  <li><a href="example.com"><i className="fa fa-shopping-bag"></i> <span>3</span></a></li>
               </ul>
               <div className="header__cart__price">item: <span>Tk 150.00</span></div>
           </div>
@@ -26,19 +26,19 @@ function App() {
                   <div>English</div>
                   <span className="arrow_carrot-down"></span>
                   <ul>
-                      <li><a href="#">Spanis</a></li>
-                      <li><a href="#">English</a></li>
+                      <li><a href="example.com">Spanis</a></li>
+                      <li><a href="example.com">English</a></li>
                   </ul>
               </div> --> */}
               <div className="header__top__right__auth">
-                  <a href="#"><i className="fa fa-user"></i> Login</a>
+                  <a href="example.com"><i className="fa fa-user"></i> Login</a>
               </div>
           </div>
           <nav className="humberger__menu__nav mobile-menu">
               <ul>
                   <li className="active"><a href="./index.html">Home</a></li>
                   <li><a href="./shop-grid.html">Shop</a></li>
-                  <li><a href="#">Pages</a>
+                  <li><a href="example.com">Pages</a>
                       <ul className="header__menu__dropdown">
                           <li><a href="./shop-details.html">Shop Details</a></li>
                           <li><a href="./shoping-cart.html">Shoping Cart</a></li>
@@ -52,10 +52,10 @@ function App() {
           </nav>
           <div id="mobile-menu-wrap"></div>
           <div className="header__top__right__social">
-              <a href="#"><i className="fa fa-facebook"></i></a>
-              <a href="#"><i className="fa fa-twitter"></i></a>
-              <a href="#"><i className="fa fa-linkedin"></i></a>
-              <a href="#"><i className="fa fa-pinterest-p"></i></a>
+              <a href="example.com"><i className="fa fa-facebook"></i></a>
+              <a href="example.com"><i className="fa fa-twitter"></i></a>
+              <a href="example.com"><i className="fa fa-linkedin"></i></a>
+              <a href="example.com"><i className="fa fa-pinterest-p"></i></a>
           </div>
           <div className="humberger__menu__contact">
               <ul>
@@ -82,22 +82,22 @@ function App() {
                       <div className="col-lg-6 col-md-6">
                           <div className="header__top__right">
                               <div className="header__top__right__social">
-                                  <a href="#"><i className="fa fa-facebook"></i></a>
-                                  <a href="#"><i className="fa fa-twitter"></i></a>
-                                  <a href="#"><i className="fa fa-linkedin"></i></a>
-                                  <a href="#"><i className="fa fa-pinterest-p"></i></a>
+                                  <a href="example.com"><i className="fa fa-facebook"></i></a>
+                                  <a href="example.com"><i className="fa fa-twitter"></i></a>
+                                  <a href="example.com"><i className="fa fa-linkedin"></i></a>
+                                  <a href="example.com"><i className="fa fa-pinterest-p"></i></a>
                               </div>
                               {/* <!-- <div className="header__top__right__language">
                                   <img src="img/language.png" alt="">
                                   <div>English</div>
                                   <span className="arrow_carrot-down"></span>
                                   <ul>
-                                      <li><a href="#">Spanis</a></li>
-                                      <li><a href="#">English</a></li>
+                                      <li><a href="example.com">Spanis</a></li>
+                                      <li><a href="example.com">English</a></li>
                                   </ul>
                               </div> --> */}
                               <div className="header__top__right__auth">
-                                  <a href="#"><i className="fa fa-user"></i> Login</a>
+                                  <a href="example.com"><i className="fa fa-user"></i> Login</a>
                               </div>
                           </div>
                       </div>
@@ -116,7 +116,7 @@ function App() {
                           <ul>
                               <li className="active"><a href="./index.html">Home</a></li>
                               <li><a href="./shop-grid.html">Shop</a></li>
-                              <li><a href="#">Pages</a>
+                              <li><a href="example.com">Pages</a>
                                   <ul className="header__menu__dropdown">
                                       <li><a href="./shop-details.html">Shop Details</a></li>
                                       <li><a href="./shoping-cart.html">Shoping Cart</a></li>
@@ -132,8 +132,8 @@ function App() {
                   <div className="col-lg-3">
                       <div className="header__cart">
                           <ul>
-                              <li><a href="#"><i className="fa fa-heart"></i> <span>1</span></a></li>
-                              <li><a href="#"><i className="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                              <li><a href="example.com"><i className="fa fa-heart"></i> <span>1</span></a></li>
+                              <li><a href="example.com"><i className="fa fa-shopping-bag"></i> <span>3</span></a></li>
                           </ul>
                           <div className="header__cart__price">item: <span>Tk 150.00</span></div>
                       </div>
@@ -157,24 +157,24 @@ function App() {
                               <span>All departments</span>
                           </div>
                           <ul>
-                              <li><a href="#">Computer</a></li>
-                              <li><a href="#">Laptops</a></li>
-                              <li><a href="#">Computer Accessories</a></li>
-                              <li><a href="#">Mouses</a></li>
-                              <li><a href="#">Keyboards</a></li>
-                              <li><a href="#">iPads</a></li>
-                              <li><a href="#">iPhones</a></li>
-                              <li><a href="#">Android Phones</a></li>
-                              <li><a href="#">Headphones</a></li>
-                              <li><a href="#">Mobile Accessories</a></li>
-                              <li><a href="#">Fresh Gadgets</a></li>
+                              <li><a href="example.com">Computer</a></li>
+                              <li><a href="example.com">Laptops</a></li>
+                              <li><a href="example.com">Computer Accessories</a></li>
+                              <li><a href="example.com">Mouses</a></li>
+                              <li><a href="example.com">Keyboards</a></li>
+                              <li><a href="example.com">iPads</a></li>
+                              <li><a href="example.com">iPhones</a></li>
+                              <li><a href="example.com">Android Phones</a></li>
+                              <li><a href="example.com">Headphones</a></li>
+                              <li><a href="example.com">Mobile Accessories</a></li>
+                              <li><a href="example.com">Fresh Gadgets</a></li>
                           </ul>
                       </div>
                   </div>
                   <div className="col-lg-9">
                       <div className="hero__search">
                           <div className="hero__search__form">
-                              <form action="#">
+                              <form action="example.com">
                                   <div className="hero__search__categories">
                                       All Categories
                                       <span className="arrow_carrot-down"></span>
@@ -198,7 +198,7 @@ function App() {
                               <span>Latest Techs</span>
                               <h2>Gadgets <br />TOP NOTCh</h2>
                               <p>Free Pickup and Delivery Available</p>
-                              <a href="#" className="primary-btn">SHOP NOW</a>
+                              <a href="example.com" className="primary-btn">SHOP NOW</a>
                           </div>
                       </div>
                   </div>
@@ -220,22 +220,22 @@ function App() {
                       </div>
                       <div className="col-lg-3">
                           <div className="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
-                              <h5><a href="#">Del</a></h5>
+                              <h5><a href="example.com">Del</a></h5>
                           </div>
                       </div>
                       <div className="col-lg-3">
                           <div className="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
-                              <h5><a href="#">Gigabyte</a></h5>
+                              <h5><a href="example.com">Gigabyte</a></h5>
                           </div>
                       </div>
                       <div className="col-lg-3">
                           <div className="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                              <h5><a href="#">Intel</a></h5>
+                              <h5><a href="example.com">Intel</a></h5>
                           </div>
                       </div>
                       <div className="col-lg-3">
                           <div className="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
-                              <h5><a href="#">Samsung</a></h5>
+                              <h5><a href="example.com">Samsung</a></h5>
                           </div>
                       </div>
                   </div>
@@ -268,13 +268,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">CVentus X</a></h6>
+                              <h6><a href="example.com">CVentus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -283,13 +283,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">Ventus X</a></h6>
+                              <h6><a href="example.com">Ventus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -298,13 +298,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">Ventus X</a></h6>
+                              <h6><a href="example.com">Ventus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -313,13 +313,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">Ventus X</a></h6>
+                              <h6><a href="example.com">Ventus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -328,13 +328,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">Ventus X</a></h6>
+                              <h6><a href="example.com">Ventus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -343,13 +343,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">Ventus X</a></h6>
+                              <h6><a href="example.com">Ventus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -358,13 +358,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">Ventus X</a></h6>
+                              <h6><a href="example.com">Ventus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -373,13 +373,13 @@ function App() {
                       <div className="featured__item">
                           <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
                               <ul className="featured__item__pic__hover">
-                                  <li><a href="#"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="#"><i className="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
+                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
                               </ul>
                           </div>
                           <div className="featured__item__text">
-                              <h6><a href="#">Ventus X</a></h6>
+                              <h6><a href="example.com">Ventus X</a></h6>
                               <h5>Tk 30.00</h5>
                           </div>
                       </div>
@@ -410,20 +410,20 @@ function App() {
                       <div className="footer__widget">
                           <h6>Useful Links</h6>
                           <ul>
-                              <li><a href="#">About Us</a></li>
-                              <li><a href="#">About Our Shop</a></li>
-                              <li><a href="#">Secure Shopping</a></li>
-                              <li><a href="#">Delivery infomation</a></li>
-                              <li><a href="#">Privacy Policy</a></li>
-                              <li><a href="#">Our Sitemap</a></li>
+                              <li><a href="example.com">About Us</a></li>
+                              <li><a href="example.com">About Our Shop</a></li>
+                              <li><a href="example.com">Secure Shopping</a></li>
+                              <li><a href="example.com">Delivery infomation</a></li>
+                              <li><a href="example.com">Privacy Policy</a></li>
+                              <li><a href="example.com">Our Sitemap</a></li>
                           </ul>
                           <ul>
-                              <li><a href="#">Who We Are</a></li>
-                              <li><a href="#">Our Services</a></li>
-                              <li><a href="#">Projects</a></li>
-                              <li><a href="#">Contact</a></li>
-                              <li><a href="#">Innovation</a></li>
-                              <li><a href="#">Testimonials</a></li>
+                              <li><a href="example.com">Who We Are</a></li>
+                              <li><a href="example.com">Our Services</a></li>
+                              <li><a href="example.com">Projects</a></li>
+                              <li><a href="example.com">Contact</a></li>
+                              <li><a href="example.com">Innovation</a></li>
+                              <li><a href="example.com">Testimonials</a></li>
                           </ul>
                       </div>
                   </div>
@@ -431,15 +431,15 @@ function App() {
                       <div className="footer__widget">
                           <h6>Join Our Newsletter Now</h6>
                           <p>Get E-mail updates about our latest shop and special offers.</p>
-                          <form action="#">
+                          <form action="example.com">
                               <input type="text" placeholder="Enter your mail"/>
                               <button type="submit" className="site-btn">Subscribe</button>
                           </form>
                           <div className="footer__widget__social">
-                              <a href="#"><i className="fa fa-facebook"></i></a>
-                              <a href="#"><i className="fa fa-instagram"></i></a>
-                              <a href="#"><i className="fa fa-twitter"></i></a>
-                              <a href="#"><i className="fa fa-pinterest"></i></a>
+                              <a href="example.com"><i className="fa fa-facebook"></i></a>
+                              <a href="example.com"><i className="fa fa-instagram"></i></a>
+                              <a href="example.com"><i className="fa fa-twitter"></i></a>
+                              <a href="example.com"><i className="fa fa-pinterest"></i></a>
                           </div>
                       </div>
                   </div>
@@ -449,7 +449,7 @@ function App() {
                       <div className="footer__copyright">
                           <div className="footer__copyright__text">
                             <p>
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <a href="https://theblisstronics.com" target="_blank">theblisstronics</a>
+                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <a href="https://theblisstronics.com">theblisstronics</a>
                             </p>
                           </div>
                           <div className="footer__copyright__payment"><img src="img/payment-item.png" alt=""/></div>
