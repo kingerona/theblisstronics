@@ -111,6 +111,13 @@ ol {
   Helper CSS
 -----------------------*/
 
+.error-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+}
+
 .section-title {
 	margin-bottom: 50px;
 	text-align: center;
