@@ -63,7 +63,7 @@ export default function CheckoutComponent() {
                                 </div>
                             </div>
                             <div className="checkout__input__checkbox">
-                                <label for="acc">
+                                <label htmlFor="acc">
                                     Create an account?
                                     <input type="checkbox" id="acc"/>
                                     <span className="checkmark"></span>
@@ -76,7 +76,7 @@ export default function CheckoutComponent() {
                                 <input type="text"/>
                             </div>
                             <div className="checkout__input__checkbox">
-                                <label for="diff-acc">
+                                <label htmlFor="diff-acc">
                                     Ship to a different address?
                                     <input type="checkbox" id="diff-acc"/>
                                     <span className="checkmark"></span>
@@ -100,7 +100,7 @@ export default function CheckoutComponent() {
                                 <div className="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
                                 <div className="checkout__order__total">Total <span>$750.99</span></div>
                                 <div className="checkout__input__checkbox">
-                                    <label for="acc-or">
+                                    <label htmlFor="acc-or">
                                         Create an account?
                                         <input type="checkbox" id="acc-or"/>
                                         <span className="checkmark"></span>
@@ -109,14 +109,14 @@ export default function CheckoutComponent() {
                                 <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua.</p>
                                 <div className="checkout__input__checkbox">
-                                    <label for="payment">
+                                    <label htmlFor="payment">
                                         Check Payment
                                         <input type="checkbox" id="payment"/>
                                         <span className="checkmark"></span>
                                     </label>
                                 </div>
                                 <div className="checkout__input__checkbox">
-                                    <label for="paypal">
+                                    <label htmlFor="paypal">
                                         Paypal
                                         <input type="checkbox" id="paypal"/>
                                         <span className="checkmark"></span>

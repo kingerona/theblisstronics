@@ -1,4 +1,79 @@
+import TabItem from "./TabItem"
+import { nanoid } from "nanoid"
+
 export default function Featured() {
+    const items = [
+        {
+            name: "Ventus 1",
+            departments: ["mouses", "keyboards"],
+            bgImage: "img/featured/feature-1.jpg",
+            link: "example.com",
+            price: 1000
+        },
+        {
+            name: "Ventus 2",
+            departments: ["headphone", "motherboards"],
+            bgImage: "img/featured/feature-2.jpg",
+            link: "example.com",
+            price: 1500
+        },
+        {
+            name: "Ventus 3",
+            departments: ["headphones", "keyboards"],
+            bgImage: "img/featured/feature-3.jpg",
+            link: "example.com",
+            price: 2000
+        },
+        {
+            name: "Ventus 4",
+            departments: ["motherboards", "mouses"],
+            bgImage: "img/featured/feature-4.jpg",
+            link: "example.com",
+            price: 2500
+        },
+        {
+            name: "Ventus 5",
+            departments: ["keybaords", "headphones"],
+            bgImage: "img/featured/feature-5.jpg",
+            link: "example.com",
+            price: 3000
+        },
+        {
+            name: "Ventus 6",
+            departments: ["mouses", "motherboards"],
+            bgImage: "img/featured/feature-6.jpg",
+            link: "example.com",
+            price: 4000
+        },
+        {
+            name: "Ventus 7",
+            departments: ["keyboards", "headphones"],
+            bgImage: "img/featured/feature-7.jpg",
+            link: "example.com",
+            price: 4500
+        },
+        {
+            name: "Ventus 8",
+            departments: ["motherboards", "headphones"],
+            bgImage: "img/featured/feature-8.jpg",
+            link: "example.com",
+            price: 5000
+        },
+    ]
+
+    const itemsEl = items.map(item => {
+        return (
+            <TabItem 
+                key={nanoid()}
+                name={item.name}
+                departments={item.departments}
+                bgImage={item.bgImage}
+                link={item.link}
+                price={item.price}
+            />
+        )
+    })
+
     return (
         <section className="featured spad">
           <div className="container">
@@ -19,126 +94,7 @@ export default function Featured() {
                   </div>
               </div>
               <div className="row featured__filter">
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix mouses keyboards">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">CVentus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix headphones motherboards">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">Ventus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix headphones keyboards">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">Ventus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix motherboards mouses">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">Ventus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix keyboards headphones">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">Ventus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix mouses motherboards">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">Ventus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix keyboards headphones">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">Ventus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-sm-6 mix motherboards headphones">
-                      <div className="featured__item">
-                          <div className="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
-                              <ul className="featured__item__pic__hover">
-                                  <li><a href="example.com"><i className="fa fa-heart"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-retweet"></i></a></li>
-                                  <li><a href="example.com"><i className="fa fa-shopping-cart"></i></a></li>
-                              </ul>
-                          </div>
-                          <div className="featured__item__text">
-                              <h6><a href="example.com">Ventus X</a></h6>
-                              <h5>Tk 30.00</h5>
-                          </div>
-                      </div>
-                  </div>
+                {itemsEl}
               </div>
           </div>
       </section>

@@ -1,3 +1,5 @@
+import Department from "../Department";
+
 export default function Hero() {
     return (
         <section className="hero">
@@ -10,17 +12,7 @@ export default function Hero() {
                               <span>All departments</span>
                           </div>
                           <ul>
-                              <li><a href="example.com">Computer</a></li>
-                              <li><a href="example.com">Laptops</a></li>
-                              <li><a href="example.com">Computer Accessories</a></li>
-                              <li><a href="example.com">Mouses</a></li>
-                              <li><a href="example.com">Keyboards</a></li>
-                              <li><a href="example.com">iPads</a></li>
-                              <li><a href="example.com">iPhones</a></li>
-                              <li><a href="example.com">Android Phones</a></li>
-                              <li><a href="example.com">Headphones</a></li>
-                              <li><a href="example.com">Mobile Accessories</a></li>
-                              <li><a href="example.com">Fresh Gadgets</a></li>
+                              <Department />
                           </ul>
                       </div>
                   </div>
