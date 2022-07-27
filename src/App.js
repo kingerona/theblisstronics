@@ -1,14 +1,11 @@
-import Footer from "./components/Footer";
-import Hamburger from "./components/Hamburger";
-import Header from "./components/Header"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import ErrorPage from "./pages/ErrorPage";
-import SingleProduct from "./pages/SingleProduct";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import Contact from "./pages/Contact";
+
+import { Home, Shop, SingleProduct, Cart, Checkout, Contact, ErrorPage } from "./pages"
+import { Header, Hero, HeroHome, Footer} from "./containers"
+import { Hamburger, Breadcrumb } from "./components"
+
+import "./App.scss"
+import "./index.css"
 
 
 const externalJS = "js/main.js"
@@ -18,11 +15,18 @@ document.body.append(script)
 
 
 function App() {
-    
   return (
     <main>
         <Hamburger />
-        <Header />        
+        <Header />
+        {
+          window.location.pathname === "/" ?
+            <HeroHome /> :
+            <>
+              <Hero />
+              <Breadcrumb />
+            </>
+        }
         <Router>
             <Routes>
                 <Route path="/" element={<Home />}></Route>
