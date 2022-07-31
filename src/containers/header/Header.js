@@ -42,10 +42,10 @@ export default function Header() {
                       <nav className="header__menu">
                           <ul>
                               <li className="active"><a href="/">Home</a></li>
-                              <li><a href="/shop">Shop</a></li>
+                              <li><a href="/products">Shop</a></li>
                               <li><a href="example.com">Pages</a>
                                   <ul className="header__menu__dropdown">
-                                      <li><a href="/product">Single Product</a></li>
+                                      <li><a href="/products/myproduct">Single Product</a></li>
                                       <li><a href="/cart">Shoping Cart</a></li>
                                       <li><a href="/checkout">Check Out</a></li>
                                   </ul>

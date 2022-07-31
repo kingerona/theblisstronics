@@ -61,9 +61,9 @@
     });
 
     /*-----------------------
-        Categories Slider
+        vendors Slider
     ------------------------*/
-    $(".categories__slider").owlCarousel({
+    $(".vendors__slider").owlCarousel({
         loop: true,
         margin: 0,
         items: 4,
@@ -96,8 +96,8 @@
     });
 
 
-    $('.hero__categories__all').on('click', function(){
-        $('.hero__categories ul').slideToggle(400);
+    $('.hero__vendors__all').on('click', function(){
+        $('.hero__vendors ul').slideToggle(400);
     });
 
     /*--------------------------

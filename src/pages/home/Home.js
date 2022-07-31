@@ -1,4 +1,4 @@
-import { Brands, Featured} from "../../components"
+import { Vendors, Featured} from "../../components"
 
 import "./Home.scss"
 
@@ -6,7 +6,7 @@ import "./Home.scss"
 export default function Home() {
     return (
         <>
-            <Brands />
+            <Vendors />
             <Featured />
         </>
     )

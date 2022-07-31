@@ -23,7 +23,7 @@ export default function Hamburger() {
                 <nav className="humberger__menu__nav mobile-menu">
                     <ul>
                         <li className="active"><a href="./index.html">Home</a></li>
-                        <li><a href="/shop">Shop</a></li>
+                        <li><a href="/products">Shop</a></li>
                         <li><a href="example.com">Pages</a>
                             <ul className="header__menu__dropdown">
                                 <li><a href="/product">Single Product</a></li>

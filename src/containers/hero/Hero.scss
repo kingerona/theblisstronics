@@ -7,7 +7,7 @@
     &.hero-normal {
         padding-bottom: 30px;
 
-        .hero__categories {
+        .hero__departments {
             position: relative;
             ul {
                 display: none;
@@ -26,7 +26,7 @@
     }
 }
 
-.hero__categories__all {
+.hero__departments__all {
     background: var(--primary-color);
     position: relative;
     padding: 10px 25px 10px 40px;
@@ -55,7 +55,7 @@
     }
 }
 
-.hero__categories {
+.hero__departments {
 
     ul {
         border: 1px solid var(--border);
@@ -90,7 +90,7 @@
 
     form {
 
-        .hero__search__categories {
+        .hero__search__vendors {
             width: 30%;
             float: left;
             font-size: 16px;

@@ -1,9 +1,9 @@
 /*---------------------
-  Categories
+  vendors
 -----------------------*/
 @import "../../Mixins.scss";
 
-.categories__item {
+.vendors__item {
     height: 270px;
     position: relative;
 
@@ -28,7 +28,7 @@
     }
 }
 
-.categories__slider {
+.vendors__slider {
 
     .col-lg-3 {
         max-width: 100%;

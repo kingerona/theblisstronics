@@ -3,11 +3,11 @@ import breadcrumb from "../assets/img/breadcrumb.jpg"
 import payment_cards from "../assets/img/payment-item.png"
 import banner from "../assets/img/banner/banner-5.jpg"
 
-import brand_1 from "../assets/img/brands/brand-1.jpg"
-import brand_2 from "../assets/img/brands/brand-2.jpg"
-import brand_3 from "../assets/img/brands/brand-3.jpg"
-import brand_4 from "../assets/img/brands/brand-4.jpg"
-import brand_5 from "../assets/img/brands/brand-5.jpg"
+import vendor_1 from "../assets/img/vendors/vendor-1.jpg"
+import vendor_2 from "../assets/img/vendors/vendor-2.jpg"
+import vendor_3 from "../assets/img/vendors/vendor-3.jpg"
+import vendor_4 from "../assets/img/vendors/vendor-4.jpg"
+import vendor_5 from "../assets/img/vendors/vendor-5.jpg"
 
 import cart_1 from "../assets/img/cart/cart-1.jpg"
 import cart_2 from "../assets/img/cart/cart-2.jpg"
@@ -63,7 +63,7 @@ const images = {
     breadcrumb,
     payment_cards,
     banner,
-    brand_1, brand_2, brand_3, brand_4, brand_5,
+    vendor_1, vendor_2, vendor_3, vendor_4, vendor_5,
     cart_1, cart_2, cart_3,
     feature_1, feature_2, feature_3, feature_4, feature_5, feature_6, feature_7, feature_8,
     lp_1, lp_2, lp_3,

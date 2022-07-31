@@ -9,8 +9,8 @@ export default function HeroHome() {
           <div className="container">
               <div className="row">
                   <div className="col-lg-3">
-                      <div className="hero__categories">
-                          <div className="hero__categories__all">
+                      <div className="hero__departments">
+                          <div className="hero__departments__all">
                               <i className="fa fa-bars"></i>
                               <span>All departments</span>
                           </div>
@@ -23,8 +23,8 @@ export default function HeroHome() {
                       <div className="hero__search">
                           <div className="hero__search__form">
                               <form action="example.com">
-                                  <div className="hero__search__categories">
-                                      All Categories
+                                  <div className="hero__search__vendors">
+                                      All Vendors
                                       <span className="arrow_carrot-down"></span>
                                   </div>
                                   <input type="text" placeholder="What do yo u need?"/>

@@ -1,54 +1,54 @@
 import { nanoid } from "nanoid"
-import SingleCategory from "./SingleBrand"
+import SingleVendor from "./SingleVendor"
 
 import { images } from "../../constants"
 
-export default function Brands() {
-    const allCategories = [
+export default function Vendors() {
+    const allVendors = [
         {
             name: "Asus",
-            bgImage: images.brand_1,
+            bgImage: images.vendor_1,
             link: "example.com"
         }, 
         {
             name: "Del",
-            bgImage: images.brand_2,
+            bgImage: images.vendor_2,
             link: "example.com"
         },
         {
             name: "Gigabyte",
-            bgImage: images.brand_3,
+            bgImage: images.vendor_3,
             link: "example.com"
         },
         {
             name: "Intel",
-            bgImage: images.brand_4,
+            bgImage: images.vendor_4,
             link: "example.com"
         },
         {
             name: "Samsung",
-            bgImage: images.brand_5,
+            bgImage: images.vendor_5,
             link: "example.com"
         }
     ]
 
-    const categoriesEl = allCategories.map(category => {
+    const vendorsEl = allVendors.map(vendor => {
         return (
-            <SingleCategory 
+            <SingleVendor
                 key={nanoid()}
-                name={category.name}
-                bgImage={category.bgImage}
-                link={category.link}
+                name={vendor.name}
+                bgImage={vendor.bgImage}
+                link={vendor.link}
             />
         )
     })
 
     return (
-        <section className="categories">
+        <section className="vendors">
           <div className="container">
               <div className="row">             
-                  <div className="categories__slider owl-carousel">
-                      {categoriesEl}
+                  <div className="vendors__slider owl-carousel">
+                      {vendorsEl}
                   </div>
               </div>
           </div>

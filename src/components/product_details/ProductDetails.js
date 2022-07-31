@@ -1,7 +1,9 @@
 import { nanoid } from "nanoid"
+// import { useParams } from "react-router-dom"
 import { images } from "../../constants"
 
 export default function ProductDetails() {
+    // let { productId } = useParams()
     const product = {
         name: "Ventus X Mouse",
         price: 5000,
@@ -59,7 +61,7 @@ export default function ProductDetails() {
             <li key={nanoid()}><blockquote>{review}</blockquote></li>
         )
     })
-
+    
     return (
         <section className="product-details spad">
             <div className="container">
